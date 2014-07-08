@@ -27,9 +27,9 @@
 	</developers>
 
 	<scm>
-		<developerConnection>scm:git:https://github.com/nyholku/purejavacomm.git</developerConnection>
-		<connection>scm:git:http://github.com/nyholku/purejavacomm.git</connection>
-		<url>https://github.com/nyholku/purejavacomm</url>
+		<developerConnection>scm:git:https://github.com/jk128/purejavacomm.git</developerConnection>
+		<connection>scm:git:http://github.com/jk128/purejavacomm.git</connection>
+		<url>https://github.com/jk128/purejavacomm</url>
 	</scm>
 
 	<properties>
@@ -50,15 +50,15 @@
 		<maven.test.skip>true</maven.test.skip>
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<uniqueVersion>false</uniqueVersion>
-			<id>repository.com.sparetimelabs</id>
-			<name>PureJavaComm Repository</name>
-			<url>ftp://ftp.sparetimelabs.com/maven2</url>
-			<layout>default</layout>
-		</repository>
-	</distributionManagement>
+<!-- 	<distributionManagement> -->
+<!-- 		<repository> -->
+<!-- 			<uniqueVersion>false</uniqueVersion> -->
+<!-- 			<id>repository.com.sparetimelabs</id> -->
+<!-- 			<name>PureJavaComm Repository</name> -->
+<!-- 			<url>ftp://ftp.sparetimelabs.com/maven2</url> -->
+<!-- 			<layout>default</layout> -->
+<!-- 		</repository> -->
+<!-- 	</distributionManagement> -->
 
 	<build>
 		<!-- target directory : where *.class are -->
@@ -106,8 +106,8 @@
 				<version>3.1</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.7</source>
+					<target>1.7</target>
 				</configuration>
 			</plugin>
 		</plugins>
